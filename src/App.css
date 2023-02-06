@@ -1,0 +1,198 @@
+body {
+  margin-top: 105px;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #244782;
+  background: rgb(36, 70, 130);
+}
+
+.navbar .nav-item {
+  font-size: 1.75rem;
+  padding-right: 1.5rem;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+.nav-item .nav-link a:hover {
+  color: firebrick;
+  transition: 0.3s ease-out;
+}
+
+
+
+#showcase {
+  position: relative;
+  background: url("./app/assets/img/rockclimb1.jpg");
+  min-height: 500px;
+}
+
+
+#showcase .primary-overlay {
+  background: rgba(36, 71, 130, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sign-up-container {
+  background: url("./app/assets/img/rockclimb2.jpg");
+  background-size:cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  object-position: center
+}
+
+#span-info {
+  background: #244782;
+  ;
+}
+
+#navSignUp {
+  background-color: #d4713b;
+  font-size: 1.75rem;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+  color: rgb(36, 70, 130)
+}
+
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px;
+  }
+
+  #showcase h1 {
+    font-size: 3rem;
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+}
+
+#submitButton {
+  color: #fff;
+  background: #244782;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-size: 1.75rem
+}
+
+#newsletterForm {
+  background: #d4713b;
+  color: #fff;
+}
+
+#newsletter {
+  background: rgba(36, 71, 130, 0.4);
+}
+
+.breadcrumb {
+  background: rgba(36, 71, 130, 0.2);
+  padding: 1.rem;
+  max-width: 40%;
+  border-radius: 10px;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000;
+
+}
+
+/* NucampCSS */
+
+h1 {
+  font-family: 'Rubik Moonrocks', cursive;
+}
+
+h2,
+h3,
+h4,
+.card-body>.card-title {
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+
+.card-title {
+  font-weight: 500;
+  font-size: 1.50rem;
+  justify-self: center;
+
+}
+
+.card-img-overlay .card-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* .row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: 300ms ease-out;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: 300ms ease-in;
+} */
+
+.footer-container {
+  background-color: #244782;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Social Icons */
+.social-icon-link {
+  color: #fff;
+  font-size: 30px;
+}
+
+.social-media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.social-logo {
+  color: #fff;
+}
